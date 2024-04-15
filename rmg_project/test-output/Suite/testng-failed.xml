@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="genricClass.SampleTest">
+        <methods>
+          <include name="Delete_Category"/>
+          <include name="Updating_the_category_details"/>
+          <include name="loginToAppAdmin"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectToDB"/>
+          <include name="Verify_the_product"/>
+          <include name="logoutAsAdmin"/>
+        </methods>
+      </class> <!-- genricClass.SampleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
