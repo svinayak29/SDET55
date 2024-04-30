@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test thread-count="2" parallel="tests" name="Test1">
+ 
+  <parameter name="deviceName" value="OnePlus9R"></parameter>
+  <parameter name="UDID" value="72613c38"></parameter>
+  <parameter name="port" value="4723"></parameter>
+  <classes>
+  <class name="startAppium.ParallelH_M"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="2" parallel="tests" name="Test2">
+ 
+  <parameter name="deviceName" value="vivo 1902"></parameter>
+  <parameter name="UDID" value="LNJV7DSCGAS8LFBU"></parameter>
+  <parameter name="port" value="4723"></parameter>
+  <classes>
+  <class name="startAppium.ParallelH_M"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
