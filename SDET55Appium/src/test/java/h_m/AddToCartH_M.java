@@ -75,7 +75,7 @@ public class AddToCartH_M {
 		String a[] = s.split("Rs.");
 		//System.out.println(a[1]);
 		for (int i = 0; i <= a[1].length()-4; i++) {
-			System.out.print(a[1].charAt(i));
+			System.out.print(a[1].charAt(i));//Hello
 			
 		}
 		
